@@ -86,8 +86,8 @@ function add_moives_taxonomy($content){
 
 		$film_footer_info = '
 			<div class="row">
-				<div class="col-md-6"><label style="font-size:15px;text-align: center;"><i class="fas fa-coins fa-lg"></i> Стоимость сеанса  '.$price[0].'</label></div>
-				<div class="col-md-6"><label style="font-size:15px;text-align: center;"><i class="fas fa-door-open fa-lg""></i> Дата выхода  '.$release_date[0].'</small></label></div>
+				<div class="col-md-6"><label class = "meta-field"><i class="fas fa-coins fa-lg"></i> Стоимость сеанса  '.$price[0].'</label></div>
+				<div class="col-md-6"><label class = "meta-field"><i class="fas fa-door-open fa-lg""></i> Дата выхода  '.$release_date[0].'</small></label></div>
 			</div>
 		';
 
@@ -176,8 +176,8 @@ function add_moives_taxonomy_to_page_template($content){
 
 		$film_footer_info = '
 			<div class="row">
-				<div class="col-md-6"><label style="font-size:15px;text-align: center;"><i class="fas fa-coins fa-lg"></i> Стоимость сеанса  '.$price[0].'</label></div>
-				<div class="col-md-6"><label style="font-size:15px;text-align: center;"><i class="fas fa-door-open fa-lg""></i> Дата выхода  '.$release_date[0].'</small></label></div>
+				<div class="col-md-6"><label class = "meta-field"><i class="fas fa-coins fa-lg"></i> Стоимость сеанса  '.$price[0].'</label></div>
+				<div class="col-md-6"><label class = "meta-field"><i class="fas fa-door-open fa-lg""></i> Дата выхода  '.$release_date[0].'</small></label></div>
 			</div>
 		';
 

@@ -64,3 +64,8 @@
   border-radius: 0px; 
   display: inline; 
 }
+
+.meta-field {
+  font-size:15px;
+  text-align: center;
+}

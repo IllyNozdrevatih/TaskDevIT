@@ -94,7 +94,7 @@ function add_moives_taxonomy($content){
 		if (is_page_template( 'templates/bootstrap-elems.php')){
 			return $film_info.$content.$film_footer_info;
 		}
-		return '<div style="float: left;margin-bottom: 10px;">'.$film_info.$content.'</div>'.$film_footer_info;
+		return '<div style="moive-block">'.$film_info.$content.'</div>'.$film_footer_info;
 	};
 
 	return $content;

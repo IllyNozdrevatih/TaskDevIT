@@ -69,3 +69,8 @@
   font-size:15px;
   text-align: center;
 }
+
+.moive-block {
+  float: left;
+  margin-bottom: 10px;
+}
